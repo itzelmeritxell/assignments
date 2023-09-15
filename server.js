@@ -6,7 +6,7 @@ const HTTP_PORT = process.env.PORT || 8080; // assign a port
 
 
 app.get('/', (req, res) => {
-    res.send('Itzel Velez - 179425210');
+    res.send('Hello World');
   });
 
 // start the server on the port and output a confirmation ot the console
